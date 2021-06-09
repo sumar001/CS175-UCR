@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Linking external css -->
+    <link rel="stylesheet" href="./styles/main.css" />
+    <!-- Linking Bootstrap Grid System -->
+    <link rel="stylesheet" href="./styles/bootstrap-grid.min.css" />
+    <!-- Importing google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kufam:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Adding favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/ios-filled/50/000000/v-symbol.png"
+      type="image/x-icon"
+    />
+    <title>SkyCity</title>
+
+    <!-- Embeding Main Javascript -->
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- Nav bar / menu bar -->
+      <header class="row">
+        <div class="nav-head col-12">
+          <div class="logo-and-hamburger-container col-12">
+            <div class="logo-container">
+              <a href="./index.html" class="logo-link"
+                ><img
+                  class="logo"
+                  src="img/logo.png"
+                  alt="logo"
+                />
+                <h4 class="logo-head">Sky City</h4>
+              </a>
+            </div>
+            <div class="hamburgerIcon">
+              <span id="openNavIcon" onclick="openNav()">&#9776;</span>
+            </div>
+          </div>
+          <nav id="navigationContainer">
+            <div class="closeNavIcon">
+              <span onclick="closeNav()">&times;</span>
+            </div>
+            <ul class="nav-item">
+              <a class="nav-link" href="#"><li class="nav-unit">HOME</li></a>
+              <a class="nav-link" href="./html/gallery.html"
+                ><li class="nav-unit">GALLERY</li></a
+              >
+              <a class="nav-link" href="./html/services.html"
+                ><li class="nav-unit">PREMIUM SERVICES</li></a
+              >
+              <a class="nav-link" href="./html/contact.html"
+                ><li class="nav-unit">CONTACT US</li></a
+              >
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Main content section -->
+      <main class="row justify-content-center">
+        <div class="main-body col-12">
+          <div class="main-body-section col-7 col-lg-8 col-xl-9">
+            <h1 class="sub-head">SkyCity</h1>
+            <p class="main-body-text">
+              Come discover the project that will change the city and
+              <br />inspire a new way of living
+            </p>
+          </div>
+        </div>
+        <div class="about col-11">
+          <h1 class="sub-head">ABOUT US</h1>
+          <p class="about-text main-body-text">
+            60% of the Millennials wanting to buy a property are unable to fork out the high down payment costs. 
+            We SkyCity real Estate are building a platform that connects real-estate investors with each other, 
+            allowing them to fractionally invest in residential properties. We will not only be connecting investors,
+            but also helping them in closing deals by doing the leg work - only at a 3% commission.
+
+            Mainstreaming the concept of fractional investment, along with offering premium services such as house
+            staging will give us an edge over our competitors as no company currently offers these services under 
+            one roof.
+    
+            The real estate market is strongly gaining back its momentum after the Covid pandemic, making it an ideal
+             time to invest in. To make sure investors don't lose out in this hot market, we will be networking and 
+             advertising our startup at the MailCon convention in New York this year. Along with target 
+             advertisements through social media platforms.
+
+          </p>
+        </div>
+        <div class="btn col-12">
+          <a href="./html/disclaimer.html"
+            ><button class="btn-enq">MAKE AN ENQUIRY</button></a
+          >
+        </div>
+      </main>
+
+      <!-- Footer section with address, office time, socail media
+  links and copyright credits-->
+      <footer class="row justify-content-center">
+        <div class="footer-block col-lg-10">
+          <div class="info-block row">
+            <div class="address col-12 col-md">
+              <h4>ADDRESS</h4>
+              <address>
+                Anaheim Hills, CA, 92807<br />
+                <br />Tel: +1 (909)319-9878
+              </address>
+            </div>
+            <div class="office-time col-12 col-md">
+              <h4>OFFICE TIME</h4>
+              <p>Monday to Saturday<br />10:00am | 6:00pm</p>
+            </div>
+          <div class="col-12">
+            <p class="credits">
+              Demo Website.&copy2021.Designed by
+              SkyCity
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
