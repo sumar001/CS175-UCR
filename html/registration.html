@@ -8,7 +8,7 @@
     />
     <!-- Linking external css -->
     <link rel="stylesheet" href="../styles/main.css" />
-    <link rel="stylesheet" href="../styles/disclaimer.css" />
+    <link rel="stylesheet" href="../styles/registration.css" />
     <!-- Linking Bootstrap Grid System -->
     <link rel="stylesheet" href="../styles/bootstrap-grid.min.css" />
     <!-- Importing google fonts -->
@@ -26,7 +26,7 @@
       href="https://img.icons8.com/ios-filled/50/000000/v-symbol.png"
       type="image/x-icon"
     />
-    <title>Disclaimer</title>
+    <title>Contact us</title>
 
     <!-- Embeding Main Javascript -->
     <script src="../js/main.js"></script>
@@ -79,56 +79,72 @@
         </div>
       </header>
 
-      <!-- Main content section -->
-      <main class="row">
-        <div class="col-12">
-          <h1 class="sub-head">Disclaimer..!</h1>
-          <div class="disclaimer-container">
-            <div class="card col-11 col-md-9 col-lg-8 col-xl-4">
-              <ul>
-                <li>This is the demo project website.</li>
-                <li>
-                  The photos and all other contents used in website<br />taken
-                  from Google, only for demo.
-                </li>
-                <li>
-                  The company name used is taken by self not under any company
-                  or property.
-                </li>
-                <li>
-                  The design is made by the respective owner of the website
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </main>
-      <!-- Footer section with address, office time, socail media
-  links and copyright credits-->
-      <footer class="row justify-content-center">
-        <div class="footer-block col-lg-10">
-          <div class="info-block row">
-            <div class="address col-12 col-md">
-              <h4>ADDRESS</h4>
-              <address>
-                Anaheim Hills, CA, 92807<br />
-                <br />Tel: +1 (909)319-9878
-              </address>
-            </div>
-            <div class="office-time col-12 col-md">
-              <h4>OFFICE TIME</h4>
-              <p>Monday to Saturday<br />10:00am | 6:00pm</p>
-            </div>
-            </div>
-          </div>
-          <div class="col-12">
-            <p class="credits">
-              Demo Website.&copy2021.Designed by
-              SkyCity
-            </p>
-          </div>
-        </div>
-      </footer>
+<div class="user-registration-container">
+    <div class="user-registration-header-container">
+      <div class="user-registration-header">
+        <b>SkyCity</b>
+      </div>          
     </div>
-  </body>
+    <div class="user-registration-container user-registration-form">
+      <div class="user-registration-main-container">
+        <div class="user-registration-main-header">
+          Sign Up
+        </div>
+        <div class="user-registration-main">
+
+          <!--Username Input-->
+          <div class="user-reg-input-form-container">
+            <label style="text-align: start;">Username:</label>
+            <div class="user-reg-input-form">
+              <input class="user-reg-input" id="user-reg-username" type="text" placeholder="">
+            </div>
+          </div>
+
+          <!--Email Address Input-->
+          <div class="user-reg-input-form-container">
+            <label style="text-align: start;">Email:</label>
+            <div class="user-reg-input-form">
+              <input class="user-reg-input" id="user-reg-email" type="email" placeholder="">
+            </div>
+          </div>
+
+          <!-- Password Input -->
+          <div class="user-reg-input-form-container">
+            <label style="text-align: start;">Password:</label>
+            <div class="user-reg-input-form">
+              <input class="user-reg-input" id="user-reg-password" type="password" placeholder="">
+            </div>
+          </div>
+
+          <!-- Confirm Password Input -->
+          <div class="user-reg-input-form-container">
+            <label style="text-align: start;">Confirm Password:</label>
+            <div class="user-reg-input-form">
+              <input class="user-reg-input" id="user-reg-confirm-password" type="password" placeholder="">
+            </div>
+          </div>
+
+          <!-- First Name Input -->
+          <div class="user-reg-input-form-container">
+            <label style="text-align: start;">First Name:</label>
+            <div class="user-reg-input-form">
+              <input class="user-reg-input" id="user-reg-first-name" type="text" placeholder="">
+            </div>
+          </div>
+
+          <!-- Last Name Input -->
+          <div class="user-reg-input-form-container">
+            <label style="text-align: start;">Last Name:</label>
+            <div class="user-reg-input-form">
+              <input class="user-reg-input" id="user-reg-last-name" type="text" placeholder="">
+            </div>
+          </div>
+
+          <button type="button" id="user-reg-button" class="btn btn-primary" style="margin-top: 50px;">Sign Up</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+ </body>
 </html>
